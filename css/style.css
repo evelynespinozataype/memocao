@@ -1,0 +1,40 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    font-family: "freight-text-pro", freightText, Georgia, serif;
+    color: #393939;
+    font-size: 20;
+    margin: 0px 0px 0px 0px;
+}
+
+#fundo {
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background: url("img/fundo.jpg") repeat;
+    position: relative;
+    text-align: center;
+}
+
+#moldura {
+    min-width: 900px;
+    min-height: 900px;
+    background: url("img/moldura.png") no-repeat;
+    background-size: contain;
+    position:absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+
+#romero {
+    width: 606px;
+    height: 502px;
+    margin-top:185px;
+    margin-left:147px;
+    position:absolute;
+    background: url("img/romero.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+}
